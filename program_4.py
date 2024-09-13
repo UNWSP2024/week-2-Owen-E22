@@ -7,7 +7,8 @@ def temp_conversion():
 
     # Get the Celsius temperature.
         celsius = float(input("Enter a Celsius temperature: "))
-        fahrenheit = ((9/5)*celsius) + 32
+        temp_conversion = ((9/5)*celsius) + 32
+        fahrenheit = temp_conversion
         # Display the Fahrenheit temperature.
         print ("That is equal to", format(fahrenheit, '.2f'), "degrees Fahrenheit.")
 temp_conversion()
