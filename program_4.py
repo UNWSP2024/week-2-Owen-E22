@@ -10,4 +10,4 @@ def temp_conversion():
         fahrenheit = ((9/5)*celsius) + 32
         # Display the Fahrenheit temperature.
         print ("That is equal to", format(fahrenheit, '.2f'), "degrees Fahrenheit.")
-
+temp_conversion()
